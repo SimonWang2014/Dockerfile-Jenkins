@@ -1,4 +1,4 @@
-FROM wangh/sohu_ubuntu:latest
+FROM wangh/ssh:latest
 MAINTAINER wangh<wanghui94@live.com>
 ENV REFRESHED_AT 2015-02-20
 
