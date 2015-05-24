@@ -3,7 +3,6 @@ MAINTAINER wangh<wanghui94@live.com>
 ENV REFRESHED_AT 2015-02-20
 
 RUN apt-get update -qq && apt-get install -qqy curl
-#RUN apt-get install -qqy curl
 
 RUN curl https://get.docker.com/gpg | apt-key add -
 RUN echo deb http://get.docker.com/ubuntu docker main > /etc/apt/sources.list.d/docker.list
